@@ -3,6 +3,8 @@ package one.digitalinnovation.dominio;
 public class Paciente extends Pessoa{
     String motivoVisita;
 
+
+
     public String getMotivoVisita() {
         return motivoVisita;
     }

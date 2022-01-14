@@ -21,8 +21,24 @@ public class Hospital {
         this.atendidos = new LinkedHashSet<>();
     }
 
-    public Pessoa atenderPaciente(Pessoa p){
-        return p;
+    public void contratarFuncionario(Funcionario f){
+        this.funcionarios.add(f);
+    }
+
+    public void registrarPaciente(Paciente p){
+        this.aguardandoAtendimento.add(p);
+    }
+
+    public void atenderPaciente(Paciente p, Funcionario f){
+        if (!this.aguardandoAtendimento.contains(p)){
+            System.out.println("Paciente inexistente");
+        } else if (!this.funcionarios.contains(f)) {
+            System.out.println("Funcionario inexistente");
+        } else {
+            this.atendidos.add(p);
+            this.aguardandoAtendimento.remove(p);
+            System.out.println("O paciente " + p + " foi atendido por " + f);
+        }
     }
 
     public String getNome() {
@@ -37,25 +53,15 @@ public class Hospital {
         return funcionarios;
     }
 
-    public void setFuncionarios(Set<Funcionario> funcionarios) {
-        this.funcionarios = funcionarios;
-    }
-
     public Set<Paciente> getAguardandoAtendimento() {
         return aguardandoAtendimento;
     }
 
-    public void setAguardandoAtendimento(Set<Paciente> aguardandoAtendimento) {
-        this.aguardandoAtendimento = aguardandoAtendimento;
-    }
 
     public Set<Paciente> getAtendidos() {
         return atendidos;
     }
 
-    public void setAtendidos(Set<Paciente> atendidos) {
-        this.atendidos = atendidos;
-    }
 
     @Override
     public boolean equals(Object o) {

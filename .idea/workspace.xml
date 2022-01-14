@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc24a3a4-cc88-48ad-8223-d89e252a95ee" name="Changes" comment="Projeto iniciado e classe Hospital criada">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cc24a3a4-cc88-48ad-8223-d89e252a95ee" name="Changes" comment="Criando classes Funcionario e Paciente">
       <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Hospital.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Paciente.java" afterDir="false" />
@@ -55,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642125006100</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criando classes Funcionario e Paciente">
+      <created>1642125852125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642125852125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,7 +77,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto iniciado e classe Hospital criada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto iniciado e classe Hospital criada" />
+    <MESSAGE value="Criando classes Funcionario e Paciente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando classes Funcionario e Paciente" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
