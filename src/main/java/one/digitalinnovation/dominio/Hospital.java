@@ -4,9 +4,9 @@ import java.util.*;
 
 public class Hospital {
     private String nome;
-    private Set<Funcionario> funcionarios;
-    private Set<Paciente> aguardandoAtendimento;
-    private Set<Paciente> atendidos;
+    private Set<Pessoa> funcionarios;
+    private Set<Pessoa> aguardandoAtendimento;
+    private Set<Pessoa> atendidos;
 
     public Hospital() {
         this.funcionarios = new LinkedHashSet<>();
@@ -21,23 +21,23 @@ public class Hospital {
         this.atendidos = new LinkedHashSet<>();
     }
 
-    public void contratarFuncionario(Funcionario f){
+    public void contratarFuncionario(Pessoa f){
         this.funcionarios.add(f);
     }
 
-    public void registrarPaciente(Paciente p){
+    public void registrarPaciente(Pessoa p){
         this.aguardandoAtendimento.add(p);
     }
 
-    public void atenderPaciente(Paciente p, Funcionario f){
-        if (!this.aguardandoAtendimento.contains(p)){
+    public void atenderPaciente(Pessoa paciente, Pessoa funcionario){
+        if (!this.aguardandoAtendimento.contains(paciente)){
             System.out.println("Paciente inexistente");
-        } else if (!this.funcionarios.contains(f)) {
+        } else if (!this.funcionarios.contains(funcionario)) {
             System.out.println("Funcionario inexistente");
         } else {
-            this.atendidos.add(p);
-            this.aguardandoAtendimento.remove(p);
-            System.out.println("O paciente " + p + " foi atendido por " + f);
+            this.atendidos.add(paciente);
+            this.aguardandoAtendimento.remove(paciente);
+            System.out.println("O paciente " + paciente + " foi atendido por " + funcionario + " no " + this.nome);
         }
     }
 
@@ -49,16 +49,16 @@ public class Hospital {
         this.nome = nome;
     }
 
-    public Set<Funcionario> getFuncionarios() {
+    public Set<Pessoa> getFuncionarios() {
         return funcionarios;
     }
 
-    public Set<Paciente> getAguardandoAtendimento() {
+    public Set<Pessoa> getAguardandoAtendimento() {
         return aguardandoAtendimento;
     }
 
 
-    public Set<Paciente> getAtendidos() {
+    public Set<Pessoa> getAtendidos() {
         return atendidos;
     }
 

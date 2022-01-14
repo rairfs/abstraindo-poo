@@ -3,7 +3,11 @@ package one.digitalinnovation.dominio;
 public class Paciente extends Pessoa{
     String motivoVisita;
 
-
+    public Paciente(String nome, String cpf, String motivoVisita) {
+        setNome(nome);
+        setCpf(cpf);
+        this.motivoVisita = motivoVisita;
+    }
 
     public String getMotivoVisita() {
         return motivoVisita;
