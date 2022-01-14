@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc24a3a4-cc88-48ad-8223-d89e252a95ee" name="Changes" comment="Criado construtores e implementado sistema atendimento">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Hospital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Paciente.java" afterDir="false" />
-    </list>
+    <list default="true" id="cc24a3a4-cc88-48ad-8223-d89e252a95ee" name="Changes" comment="Projeto finalizado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642127305308</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Projeto finalizado">
+      <created>1642128097930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642128097930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,7 +109,8 @@
     <MESSAGE value="Projeto iniciado e classe Hospital criada" />
     <MESSAGE value="Criando classes Funcionario e Paciente" />
     <MESSAGE value="Criado construtores e implementado sistema atendimento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado construtores e implementado sistema atendimento" />
+    <MESSAGE value="Projeto finalizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto finalizado" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
