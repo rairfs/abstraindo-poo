@@ -21,6 +21,10 @@ public class Hospital {
         this.atendidos = new LinkedHashSet<>();
     }
 
+    public Pessoa atenderPaciente(Pessoa p){
+        return p;
+    }
+
     public String getNome() {
         return nome;
     }

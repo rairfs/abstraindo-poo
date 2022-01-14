@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc24a3a4-cc88-48ad-8223-d89e252a95ee" name="Changes" comment="" />
+    <list default="true" id="cc24a3a4-cc88-48ad-8223-d89e252a95ee" name="Changes" comment="Projeto iniciado e classe Hospital criada">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/dominio/Paciente.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +48,14 @@
       <option name="presentableId" value="Default" />
       <updated>1642114222217</updated>
     </task>
+    <task id="LOCAL-00001" summary="Projeto iniciado e classe Hospital criada">
+      <created>1642125006100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642125006100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -55,6 +68,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto iniciado e classe Hospital criada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto iniciado e classe Hospital criada" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
